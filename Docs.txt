@@ -1,0 +1,38 @@
+Please find the requirements specification of the project:
+
+*********
+TO design and implement a Django application with User and ActivityPeriod models, write a custom management command to populate the database with some dummy data, and design an API to serve that data in the json format given above.
+
+Instructions:
+•	Please complete this assignment using Python & Django. Feel free to use any Python packages as you see fit.
+•	The code and API endpoint should be production ready and hosted somewhere in a publicly accessible location like on AWS, Heroku, PythonAnywhere, etc.
+•	Please include a README file.
+*********
+
+Closed points:
+
+1. Project developed using Python 3.7 and Django 2.2.7 versions.
+
+2. Code hosted on github repository - https://github.com/TusharMatta/django-API-deployment
+   API hosted on pythonanywhere - http://tusharmatta.pythonanywhere.com
+   
+3. Custom management command to create certain number fake users(default is 1):
+      python manage.py fake_users --users 'number of users'
+      
+   Custom management command to create fake user acitivity:
+      python manage.py fake_user_activity
+ 
+ 4. ReadMe file included in the github repo - https://github.com/TusharMatta/django-API-deployment
+ 
+ 5. To insert user data through UI, please go to http://tusharmatta.pythonanywhere.com/users. Login using the credentials:
+        username- eric
+        password -eric
+    A sign up page has not been provided yet. A sample user created with above mentioned credentials.
+    
+  6. Subsequent GET, UPDATE and DELETE operations can be performed from the UI provided at http://tusharmatta.pythonanywhere.com/users.
+  
+  7. To view the list of all user(Get request for all users), please go to http://tusharmatta.pythonanywhere.com/final.
+  
+  Thanks, have a good day.
+      
+      
